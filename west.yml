@@ -1,0 +1,24 @@
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#   projects:
+#     - name: zmk
+#       remote: zmkfirmware
+#       revision: main
+#       import: app/west.yml
+#   self:
+#     path: config
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/toxikmango
+    - name: zmkfirmware
+      url-base: https://github.com/toxikmango
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: firefly
+      import: app/west.yml
+  self:
+    path: config
