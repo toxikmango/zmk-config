@@ -1,0 +1,11 @@
+file_format: "1"
+id: firefly
+name: firefly
+type: shield
+url: 
+requires: [Nice!Nano_V2]
+exposes: []
+features:
+  - keys
+  - encoder
+  - underglow
