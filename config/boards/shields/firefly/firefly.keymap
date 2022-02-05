@@ -25,11 +25,11 @@
 		
 		default_layer {
 			bindings = <
-				&kp KP_K_MUTE  &kp KP_UP     &kp KP_---   &mo 1
-				&kp KP_LEFT    &kp KP_DOWN   &kp RIGHT    &mo 2
-				&kp KP_SPACE   &kp KP_a    &kp KP_s   &none
-				&kp KP_d     &kp KP_f    &kp KP_g   &none
-				&kp KP_h     &kp KP_j    &kp KP_k   &none
+				&kp KP_K_MUTE  &kp KP_UP     &kp KP_%        &mo_1
+				&kp KP_LEFT    &kp KP_DOWN   &kp KP_RIGHT    &mo_2
+				&kp KP_SPACE   &kp KP_a      &kp KP_s   &none
+				&kp KP_d       &kp KP_f      &kp KP_g   &none
+				&kp KP_h       &kp KP_j      &kp KP_k   &none
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
