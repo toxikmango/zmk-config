@@ -29,7 +29,7 @@
 			bindings = <
 				&kp D       &kp F      &kp G        &mo LOWER
 				&kp LEFT    &kp DOWN   &kp RIGHT    &mo UPPER
-				&kp l   &kp a      &kp s   
+				&kp l   &kp a      &kp s   &kp k
 				&kp d       &kp f      &kp g   &none
 				&kp h       &kp j      &kp k   &none
 			>;
