@@ -65,7 +65,7 @@
 			bindings = <
 			    &kp Z    &kp X    &kp C		&none
 				&kp V    &kp B    &kp N     &none
-				&kp M    &kp ,    &kp .     &none
+				&kp M    &kp KP_COMMA    &kp KP_DOT     &none
 				&kp /    &kp <    &kp >     &none
 				&kp ?    &kp :    &kp "     &none
 			 >;
