@@ -27,7 +27,7 @@
 		
 		default_layer {
 			bindings = <
-				&kp D  &kp F     &kp G        &kp H
+				&kp D       &kp F      &kp G        &mo LOWER
 				&kp LEFT    &kp DOWN   &kp RIGHT    &mo UPPER
 				&kp SPACE   &kp a      &kp s   &none
 				&kp d       &kp f      &kp g   &none
