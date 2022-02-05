@@ -63,11 +63,11 @@
 			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
 
 			bindings = <
-			    &KP_Z    &KP_X    &KP_C		&none
-				&KP_V    &KP_B    &KP_N     &none
-				&KP_M    &kp KP_, &kp KP_.  &none
-				&KP_/    &KP_<    &KP_>     &none
-				&KP_?    &KP_:    &KP_"     &none
+			    &kp Z    &kp X    &kp C		&none
+				&kp V    &kp B    &kp N     &none
+				&kp M    &kp ,    &kp .     &none
+				&kp /    &kp <    &kp >     &none
+				&kp ?    &kp :    &kp "     &none
 			 >;
 
 			 sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
