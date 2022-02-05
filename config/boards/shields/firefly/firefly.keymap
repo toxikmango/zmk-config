@@ -18,8 +18,7 @@
 / {
 	sensors {
 		compatible = "zmk,keymap-sensors";
-		sensors = <&encoder_1>;
-		sensors = <&encoder_2>;
+		
 	};
 
 	keymap {
@@ -34,8 +33,7 @@
 				&kp H       &kp J      &kp K   &none
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-			sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+			
 		};
 
 		 func_layer_1 {
