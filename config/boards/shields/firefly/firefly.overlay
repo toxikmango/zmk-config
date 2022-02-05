@@ -23,10 +23,10 @@
 			;
 
 	};
-	&encoder_1 {
-	status = "okay";
-	};
-	&encoder_2 {
+	&encoder_1; {
 	status = "okay";
 	}
+	&encoder_2 {
+	status = "okay";
+
 };	
