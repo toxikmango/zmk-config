@@ -66,8 +66,8 @@
 			    &kp Z    &kp X    &kp C		&none
 				&kp V    &kp B    &kp N     &none
 				&kp M    &kp KP_DIVIDE    &kp KP_DOT     &none
-				&kp /    &kp <    &kp >     &none
-				&kp ?    &kp :    &kp "     &none
+				&kp KP_DIVIDE    &kp KP_MULTIPLY    &kp KP_PLUS     &none
+				&kp QUESTION    &kp COLON    &kp DQT     &none
 			 >;
 
 			 sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
