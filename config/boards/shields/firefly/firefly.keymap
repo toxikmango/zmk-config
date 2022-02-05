@@ -30,7 +30,7 @@
 				&kp D       &kp F      &kp G        &mo LOWER
 				&kp LEFT    &kp DOWN   &kp RIGHT    &mo UPPER
 				&kp L   &kp A      &kp S   &kp K
-				&kp D       &kp F      &kp G   &none
+				&kp D       &kp F      &kp G   &NONE
 				&kp h       &kp j      &kp k   &none
 			>;
 
