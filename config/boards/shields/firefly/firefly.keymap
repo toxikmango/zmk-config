@@ -11,11 +11,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 
-&encoder_1 {
-	status = "okay";
-	&encoder_2 
-	status = "okay";
-};
+
 
 / {
 	sensors {
