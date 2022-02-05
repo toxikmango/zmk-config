@@ -9,7 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#define DEFAULT 0
+#define LOWER 1
+#define UPPER 2
 
 
 
@@ -25,8 +27,8 @@
 		
 		default_layer {
 			bindings = <
-				&kp K_MUTE  &kp UP     &kp %        &mo 1
-				&kp LEFT    &kp DOWN   &kp RIGHT    &mo 2
+				&kp K_MUTE  &kp UP     &kp %        &mo LOWER
+				&kp LEFT    &kp DOWN   &kp RIGHT    &mo UPPER
 				&kp SPACE   &kp a      &kp s   &none
 				&kp d       &kp f      &kp g   &none
 				&kp h       &kp j      &kp k   &none
