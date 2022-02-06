@@ -41,9 +41,9 @@
 			bindings = <
 				&reset           &none          &bootloader     &none
 				&out OUT_TOG    &out OUT_USB    &out OUT_BLE    &none
-				&bt BT_SEL 0    &bt BT_PRV      &bt BT_NXT      
-				&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    
-				&kp C_MUTE      &none           &none           
+				&bt BT_SEL 0    &bt BT_PRV      &bt BT_NXT      &none
+				&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &none
+				&kp C_MUTE      &none           &none           &none
 			 >;
 
 			 
@@ -55,11 +55,11 @@
 			
 
 			bindings = <
-			    &kp Z    &kp X    &kp C		&none
-				&kp V    &kp B    &kp N     &none
-				&kp M    &kp KP_DIVIDE    &kp KP_DOT     &none
+			    &kp Z    &kp X    &kp C		                        &none
+				&kp V    &kp B    &kp N                             &none
+				&kp M    &kp KP_DIVIDE    &kp KP_DOT                &none
 				&kp KP_DIVIDE    &kp KP_MULTIPLY    &kp KP_PLUS     &none
-				&kp QUESTION    &kp COLON    &kp DQT     &none
+				&kp QUESTION    &kp COLON    &kp DQT                &none
 			 >;
 
 			 
