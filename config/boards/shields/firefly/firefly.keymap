@@ -16,10 +16,7 @@
 
 
 / {
-	sensors {
-		compatible = "zmk,keymap-sensors";
-		
-	};
+	
 
 	keymap {
 		compatible = "zmk,keymap";
