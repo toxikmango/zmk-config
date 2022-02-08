@@ -23,11 +23,11 @@
 		
 		default_layer {
 			bindings = <
-				&kp D       &mo BLUETOOTH     &kp G         &mo LOWER
-				&kp LEFT    &kp ENTER         &kp RIGHT     &mo UPPER
-				&kp SPACE   &kp A             &kp S         &none
-				&kp N4      &kp F             &kp G         &none
-				&kp N1      &kp N2            &kp N3        &none
+				&kp ENTER   &kp UP     &mo BLUETOOTH  &mo LOWER
+				&kp LEFT    &kp DOWN   &kp RIGHT      &mo UPPER
+				&kp SPACE   &kp A      &kp S          &none
+				&kp N4      &kp F      &kp G          &none
+				&kp N1      &kp N2     &kp N3         &none
 			>;
 
 			
