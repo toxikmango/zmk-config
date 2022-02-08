@@ -12,7 +12,7 @@
 #define DEFAULT 0
 #define LOWER 1
 #define UPPER 2
-
+#define BLUETOOTH 3
 
 
 / {
@@ -23,11 +23,11 @@
 		
 		default_layer {
 			bindings = <
-				&kp D       &kp F      &kp G        &mo LOWER
-				&kp LEFT    &kp ENTER  &kp RIGHT    &mo UPPER
-				&kp SPACE   &kp A      &kp S   &none
-				&kp D       &kp F      &kp G   &none
-				&kp H       &kp J      &kp K   &none
+				&kp D       &mo BLUETOOTH      &kp G        &mo LOWER
+				&kp LEFT    &kp ENTER          &kp RIGHT    &mo UPPER
+				&kp SPACE   &kp A              &kp S        &none
+				&kp D       &kp F              &kp G        &none
+				&kp H       &kp J              &kp K        &none
 			>;
 
 			
@@ -39,11 +39,11 @@
 			
 
 			bindings = <
-				&reset           &none          &bootloader     &none
-				&out OUT_TOG    &out OUT_USB    &out OUT_BLE    &none
-				&bt BT_SEL 0    &bt BT_PRV      &bt BT_NXT      &none
-				&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &none
-				&kp C_MUTE      &none           &bt BT_CLR      &none
+				&kp Z    &kp X    &kp C		                        &none
+				&kp V    &kp B    &kp N                             &none
+				&kp M    &kp KP_DIVIDE    &kp KP_DOT                &none
+				&kp KP_DIVIDE    &kp KP_MULTIPLY    &kp KP_PLUS     &none
+				&kp QUESTION    &kp COLON    &kp DQT                &none
 			 >;
 
 			 
@@ -60,6 +60,22 @@
 				&kp M    &kp KP_DIVIDE    &kp KP_DOT                &none
 				&kp KP_DIVIDE    &kp KP_MULTIPLY    &kp KP_PLUS     &none
 				&kp QUESTION    &kp COLON    &kp DQT                &none
+			 >;
+
+			 
+		 };
+		 
+		 func_layer_3 {
+			 label = "Function";
+			
+			
+
+			bindings = <
+				&reset           &none          &bootloader     &none
+				&out OUT_TOG    &out OUT_USB    &out OUT_BLE    &none
+				&bt BT_SEL 0    &bt BT_PRV      &bt BT_NXT      &none
+				&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &none
+				&kp C_MUTE      &none           &bt BT_CLR      &none
 			 >;
 
 			 
