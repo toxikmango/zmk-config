@@ -33,7 +33,7 @@
 		label = "LEFT_ENCODER";
 		a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		resolution = <1>;
+		resolution = <3>;
 	};
 
 	right_encoder: encoder_right {
@@ -41,6 +41,6 @@
 		label = "RIGHT_ENCODER";
 		a-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		resolution = <1>;
+		resolution = <3>;
 	};
 };	
