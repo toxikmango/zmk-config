@@ -15,7 +15,7 @@
 #define BLUETOOTH 3
 
 &kscan0 {
-    debounce-period = <10>;
+    debounce-period = <50>;
 };
 
 	&left_encoder {
