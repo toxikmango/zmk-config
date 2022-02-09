@@ -27,4 +27,20 @@
 			;
 
 	};
+	
+	left_encoder: encoder_1 {
+		compatible = "alps,ec11";
+		label = "LEFT_ENCODER";
+		a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&pro_micro 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		resolution = <24>;
+	};
+
+	right_encoder: encoder_2 {
+		compatible = "alps,ec11";
+		label = "RIGHT_ENCODER";
+		a-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		b-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		resolution = <24>;
+	};
 };	
